@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" data-theme= "light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Tickets System</title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Aweosam-->
+    <script src="https://kit.fontawesome.com/42f3a9aa9d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="mx-auto max-w-screen-xl">
+        <!-- Navigation Section Start -->
         <header>
             <div class="container mx-auto lg:px-20">
                 <div class="navbar my-10  rounded-full px-10">
@@ -29,14 +32,64 @@
                         </ul>
                     </div>
                     <div class="navbar-end space-x-6">
-                        
-                        <a class="btn bg-[#1DD100] text-white"><i class="fa-solid fa-magnifying-glass"></i>Bus</a>
+                        <button class="btn bg-[#1DD1001A] text-[#1DD100]">
+                            Bus
+                            <img src="images/bus-icon.png" alt="">
+                          </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation Section End -->
+            <!-- Banner Section Start -->
+            <div>
+                <div class="hero h-[80vh] bg-no-repeat bg-cover rounded-3xl"         style="background-image: url(images/banner.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-3xl"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="max-w-xl">
+                        <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with  <span class="text-[#1DD100]">Paribahan</span></h1>
+                        <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                        <button class="btn bg-[#1DD100] text-black">Buy Tickets</button>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="lg:relative rounded-lg  lg:translate-x-0  -top-16 flex justify-center space-x-10 ">
+                    <!-- Card-01 -->
+                    <div class="max-w-72 p-8 bg-white flex items-center text-center rounded-3xl space-x-5 ">
+                        <div>
+                            <img src="images/people.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="text-2xl font-bold text-black ">500K+</h6>
+                            <p class="text-black mt-4">Registered users.</p>
+                        </div>
+                    </div>
+                    <!-- Card-02 -->
+                    <div class="max-w-72 p-8 bg-white flex space-x-5 rounded-3xl">
+                        <div>
+                            <img src="images/ticket-cupon.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="text-2xl font-bold text-black ">1.7 lacks</h6>
+                            <p class="text-black mt-4">Tickets sold</p>
+                        </div>
+                    </div>
+                    <!-- Card-03 -->
+                    <div class="max-w-72 p-8 bg-white flex space-x-5 rounded-3xl">
+                        <div>
+                            <img src="images/stoppage.png" alt="">
+                        </div>
+                        <div>
+                            <h6 class="text-2xl font-bold text-black ">80K+</h6>
+                            <p class="text-black mt-4">Rental partners</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
         <body>
-            
+            <!--Discount Off Section  -->
+            <h1 class="text-5xl font-bold text-center font-raleway">Best offers for you</h1>
         </body>
     </main>
     <footer>
