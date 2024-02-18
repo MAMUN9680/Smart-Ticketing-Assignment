@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Font Aweosam-->
     <script src="https://kit.fontawesome.com/42f3a9aa9d.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <main class="mx-auto max-w-screen-xl">
+<body class="mx-auto max-w-screen-xl"> 
         <!-- Navigation Section Start -->
         <header>
             <div class="container mx-auto lg:px-20">
@@ -87,11 +90,44 @@
                 </div>
             </div>
         </header>
-        <body>
+        <main>
             <!--Discount Off Section  -->
             <h1 class="text-5xl font-bold text-center font-raleway">Best offers for you</h1>
-        </body>
-    </main>
+            <!-- Coupon Section -->
+            <div class="grid lg:grid-cols-2 gap-10 items-center mt-14">
+                <!-- coupon--01 -->
+                <div class="flex bg-[#FFBF0F] justify-center text-center items-center space-x-10 rounded-3xl">
+                    <div class="space-y-2">
+                        <h1 class="font-bold text-4xl font-inter text-[#030712CC]">15% OFF</h1>
+                        <h6 class="font-inter font-medium text-[#030712CC]">on your next purchase</h6>
+                        <p class="font-medium text-[#03071280]">use by February 2024</p>
+                    </div>
+                    <div>
+                        <img src="images/cupon-devider.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="font-medium font-raleway text-2xl text-[#030712]">NEW15</h2>
+                        <p class="text-[#03071266] font-medium font-inter">Coupon Code</p>
+                    </div>
+                </div>
+                <!-- coupon--02 -->
+                <div class="flex bg-[#F78C9C] text-center justify-center items-center space-x-10 rounded-3xl">
+                    <div class="space-y-2">
+                        <h1 class="font-bold text-4xl font-inter text-[#030712CC]">20% OFF</h1>
+                        <h6 class="font-inter font-medium text-[#030712CC]">on your next purchase</h6>
+                        <p class="font-medium text-[#03071280]">use by February 2024</p>
+                    </div>
+                    <div>
+                        <img src="images/cupon-devider.png" alt="">
+                    </div>
+                    <div class="space-y-2">
+                        <h2 class="font-medium font-raleway text-2xl text-[#030712]">Couple 20</h2>
+                        <p class="text-[#03071266] font-medium font-inter">Coupon Code</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>  
     <footer>
 
     </footer>
